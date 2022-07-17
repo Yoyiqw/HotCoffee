@@ -41,7 +41,6 @@ body {
   justify-content: flex-end;
   align-items: center;
   flex-wrap: wrap;
-  display: none;
 }
 .header__logo {
   font-weight: 700;
@@ -68,6 +67,7 @@ body {
 }
 
 .burger {
+  display: none;
   position: relative;
   cursor: pointer;
 }

@@ -5,7 +5,6 @@
     }
     &__list{
         @include flex(center,flex-end,wrap);
-        display: none;
     }
     &__logo{
         @include font(700, 20, $text-Black);
@@ -26,6 +25,7 @@
 }
 
 .burger {
+    display: none;
     position: relative;
     cursor: pointer;
     &__list {
