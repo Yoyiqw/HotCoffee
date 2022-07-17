@@ -1,0 +1,39 @@
+.actual {
+    margin-top: 39px;
+
+    &__title {
+        @include font(700, 30px, $text-Gray);
+    }
+
+    &__description {
+        @include font(400, 14px, $text-LightGray);
+        margin: 27px 0 30px 0;
+    }
+
+    &__date {
+        @include font(400, 12px, $text-Black);
+    }
+
+    &__link {
+        @include font(400, 12px, $text-Gray);
+    }
+
+    &__bottom {
+        @include flex(center, space-between, wrap);
+    }
+    
+    &__item {
+        @include flex(center, space-between, nowrap);
+        border: 1px solid #E2E2E2;
+        box-shadow: 0px 5px 4px rgba(211, 211, 211, 0.25);
+        border-radius: 5px;
+    }
+
+    &__left {
+        padding: 42px;
+    }
+
+    &__img {
+        margin-left: 25px;
+    }
+}

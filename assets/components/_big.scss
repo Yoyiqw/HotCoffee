@@ -1,0 +1,48 @@
+.big {
+    margin-top: 43px;
+
+    &__title {
+        @include font(700, 40px, $text-Black);
+    }
+
+    &__description {
+        @include font(400, 16px, $text-LightGray);
+        margin: 24px 0 31px 0;
+    }
+
+    &__date {
+        @include font(400, 16px, $text-DarkGray);
+    }
+
+    &__link {
+        @include font(400, 16px, $text-Black);
+    }
+
+    &__item {
+        background: #F7FAFC;
+        @include flex(center, space-between, nowrap);
+    }
+
+    &__info {
+        padding: 64px;
+    }
+}
+
+.more {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 31px;
+
+    &__btn {
+        border: none;
+        @include font(700, 16px, #fff);
+        @include flex(center, space-between, nowrap);
+        background: $bg-purple;
+        padding: 9px 11px;
+        border-radius: 5px;
+    }
+
+    &__icon {
+        margin-left: 8px;
+    }
+}

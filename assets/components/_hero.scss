@@ -1,0 +1,22 @@
+.hero {
+    padding: 70px 0;
+    &__content {
+        @include flex(center, space-around, nowrap);
+    }
+    &__title{
+        @include font(700, 60px, $text-Black);
+        line-height: 73px;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    &__suptitle{
+        @include font(400, 30px, $text-DarkGray);
+        margin-top: 19px;
+    }
+    &__cup {
+        position: absolute;
+        bottom: 0;
+        left:40%; 
+    }
+}

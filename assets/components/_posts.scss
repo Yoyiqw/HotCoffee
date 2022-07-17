@@ -1,0 +1,27 @@
+.posts {
+    &__item {
+        margin-top: 43px;
+        width: 297px;
+    }
+
+    &__title {
+        @include font(700, 20px, $text-Gray);
+    }
+
+    &__description {
+        @include font(400, 14px, $text-LightGray);
+        margin: 15px 0 22px 0;
+    }
+
+    &__info {
+        padding: 18px 25px 24px 17px;
+    }
+
+    &__content {
+        @include flex(center, space-around, wrap);
+    }
+
+    &__img {
+        max-width: 100%;
+    }
+}
