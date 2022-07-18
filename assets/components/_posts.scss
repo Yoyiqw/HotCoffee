@@ -25,3 +25,16 @@
         max-width: 100%;
     }
 }
+
+@media screen and (max-width: 947px) {
+    .posts {
+        &__content {
+            display: block;
+        }
+
+        &__item {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
