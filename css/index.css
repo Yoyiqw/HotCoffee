@@ -24,7 +24,6 @@ body {
 .container {
   max-width: 936px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 .header {
@@ -321,9 +320,11 @@ body {
   }
   .big__right {
     text-align: center;
-    width: 100%;
   }
   .big__left {
     margin-top: 20px;
+  }
+  .big__img {
+    max-width: 100%;
   }
 }/*# sourceMappingURL=index.css.map */
